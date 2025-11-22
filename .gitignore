@@ -21,4 +21,3 @@ ENV/
 *.log
 test_output/
 data/
-```
