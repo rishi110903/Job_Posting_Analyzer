@@ -21,3 +21,7 @@ ENV/
 *.log
 test_output/
 data/
+
+# Output folder
+output/*.json
+!output/.gitkeep
