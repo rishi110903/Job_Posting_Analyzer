@@ -1,5 +1,14 @@
 """
-Skills extraction engine using pattern matching and NLP
+Skills Extractor (Version 1.0 - Day 3)
+
+This is the original regex-based implementation.
+Kept for comparison and as a fallback option.
+
+For the enhanced NLP version, see: skills_extractor_v2.py
+
+Accuracy: ~70%
+Speed: Fast
+Dependencies: None (only regex)
 """
 
 import re

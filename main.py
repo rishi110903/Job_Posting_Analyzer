@@ -4,7 +4,7 @@ Combines scraping, skills extraction, and file management
 """
 
 from scraper import JobScraper
-from skills_extractor import SkillExtractor
+from skills_extractor_v2 import EnhancedSkillExtractor as SkillExtractor
 from file_manager import FileManager
 
 
@@ -25,6 +25,19 @@ def display_results(result, analysis):
     print(f"   • Text length: {len(result['text']):,} characters")
     print(f"   • Total skills: {analysis['total_skills']}")
     print(f"   • Categories: {len(analysis['categorized'])}")
+    
+    #Show experience required (handles both string and int)
+    exp = analysis.get('experience_required', {})
+    if exp.get('years') or exp.get('level'):
+        print(f"\n👔 Experience Required:")
+        
+        if exp.get('years'):
+        
+            years = exp['years']
+            print(f"   • Years: {years}")
+        
+        if exp.get('level'):
+            print(f"   • Level: {exp['level'].title()}")
     
     if analysis['all_skills']:
         print(f"\n🔍 All Skills Found:")
