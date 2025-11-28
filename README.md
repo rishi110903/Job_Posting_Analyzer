@@ -1,7 +1,6 @@
 # Job Posting Analyzer
 
-🎯 Project Overview
-<br>
+## 🎯 Project Overview
 Job Posting Analyzer is a complete end-to-end application that automates the extraction of technical skills from job postings. It uses NLP (spaCy) to identify programming languages, frameworks, databases, cloud platforms, and DevOps tools, then categorizes them and detects experience requirements.
 
 Built as a 5-day intensive project demonstrating full-stack development skills, from web scraping to API deployment.
@@ -41,7 +40,7 @@ Categorization (group by type)
 ↓
 JSON Output (display results)
 
-📦 Installation & Setup
+## 📦 Installation & Setup
 Prerequisites
 Python 3.8+
 
@@ -49,33 +48,26 @@ Git
 
 Internet connection
 
-Step 1: Clone Repository
+## Step 1: Clone Repository
 git clone https://github.com/yourusername/job-posting-analyzer.git
 cd job-posting-analyzer
-Step 2: Create Virtual Environment
-bash
+## Step 2: Create Virtual Environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Step 3: Install Dependencies
-bash
+## Step 3: Install Dependencies
 pip install -r requirements.txt
 
 # Download spaCy model
 python -m spacy download en_core_web_sm
 
-## Repository Structure
-- `scraper.py`: Contains code to fetch and parse job postings
-- `skills_extractor.py`: Contains NLP logic to extract skills
-- `main.py`: Entry point, orchestrates the flow
-- `config.py`: Configuration settings
 
-🚀 Live Demo
+## 🚀 Live Demo
 API Endpoint: http://localhost:8000 (local)
 API Docs: http://localhost:8000/docs
 Status: ✅ Fully functional, ready for deployment
 
-📁 Project Structure
-text
+## 📁 Project Structure
+
 job-posting-analyzer/
 ├── api/                           # FastAPI application
 │   ├── __init__.py
@@ -85,15 +77,16 @@ job-posting-analyzer/
 ├── scraper.py                     # Web scraping (JobScraper class)
 ├── skills_extractor.py            # V1: Basic regex extractor
 ├── skills_extractor_v2.py         # V2: Enhanced NLP extractor ⭐
-├── file_manager.py               # JSON file persistence
+├── file_manager.py                # JSON file persistence
 ├── main.py                        # CLI application
-├── test_integration.py           # Integration tests
-├── compare_extractors.py         # V1 vs V2 comparison
-├── requirements.txt              # Dependencies
-├── README.md                     # This file
-├── .gitignore                    # Git exclusions
-└── output/                       # Saved analyses
+├── test_integration.py            # Integration tests
+├── compare_extractors.py          # V1 vs V2 comparison
+├── requirements.txt               # Dependencies
+├── README.md                      # This file
+├── .gitignore                     # Git exclusions
+└── output/                        # Saved analyses
     └── .gitkeep
+
 
 ## How to Run (Will be updated after completion)
 
