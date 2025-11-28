@@ -1,6 +1,7 @@
 # Job Posting Analyzer
 
 🎯 Project Overview
+<br>
 Job Posting Analyzer is a complete end-to-end application that automates the extraction of technical skills from job postings. It uses NLP (spaCy) to identify programming languages, frameworks, databases, cloud platforms, and DevOps tools, then categorizes them and detects experience requirements.
 
 Built as a 5-day intensive project demonstrating full-stack development skills, from web scraping to API deployment.
