@@ -69,25 +69,27 @@ Status: ✅ Fully functional, ready for deployment
 ## 📁 Project Structure
 
 job-posting-analyzer/
-├── api/                           # FastAPI application
-│   ├── __init__.py
-│   ├── main.py                    # API endpoints
-│   └── models.py                  # Pydantic models
+<br>
+api/ <ul>
 
+<li>__init__.py</li>
+<li>main.py</li>
+<li>models.py</li>                
 
-├── config.py                      # Settings & skills database
-├── scraper.py                     # Web scraping (JobScraper class)
-├── skills_extractor.py            # V1: Basic regex extractor
-├── skills_extractor_v2.py         # V2: Enhanced NLP extractor ⭐
-├── file_manager.py                # JSON file persistence
-├── main.py                        # CLI application
-├── test_integration.py            # Integration tests
-├── compare_extractors.py          # V1 vs V2 comparison
-├── requirements.txt               # Dependencies
-├── README.md                      # This file
-├── .gitignore                     # Git exclusions
-
-
-└── output/                        # Saved analyses
-    └── .gitkeep
+<p>pydantic model</p>
+<ul>
+<li>config.py  # Settings & skills database</li>
+<li>scraper.py # Web scraping (JobScraper class)</li>
+<li>skills_extractor.py # V1: Basic regex extractor</li>
+<li>skills_extractor_v2.py # V2: Enhanced NLP extractor ⭐</li>
+<li>file_manager.py # JSON file persistence</li>
+<li>main.py # CLI application</li>
+<li>test_integration.py  # Integration tests</li>
+<li>compare_extractors.py # V1 vs V2 comparison</li>
+<li>requirements.txt # Dependencies</li>
+<li>README.md </li>
+<li>.gitignore</li>
+<ul>
+ output/                   
+    <li>.gitkeep</li>
 
