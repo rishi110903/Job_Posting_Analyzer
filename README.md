@@ -73,6 +73,8 @@ job-posting-analyzer/
 │   ├── __init__.py
 │   ├── main.py                    # API endpoints
 │   └── models.py                  # Pydantic models
+
+
 ├── config.py                      # Settings & skills database
 ├── scraper.py                     # Web scraping (JobScraper class)
 ├── skills_extractor.py            # V1: Basic regex extractor
@@ -84,9 +86,8 @@ job-posting-analyzer/
 ├── requirements.txt               # Dependencies
 ├── README.md                      # This file
 ├── .gitignore                     # Git exclusions
+
+
 └── output/                        # Saved analyses
     └── .gitkeep
-
-
-## How to Run (Will be updated after completion)
 
