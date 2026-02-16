@@ -1,6 +1,6 @@
 # Job Posting Analyzer
 
-## 🎯 Project Overview
+##  Project Overview
 Job Posting Analyzer is a complete end-to-end application that automates the extraction of technical skills from job postings. It uses NLP (spaCy) to identify programming languages, frameworks, databases, cloud platforms, and DevOps tools, then categorizes them and detects experience requirements.
 
 Built as a 5-day intensive project demonstrating full-stack development skills, from web scraping to API deployment.
@@ -40,7 +40,7 @@ Categorization (group by type)
 ↓
 JSON Output (display results)
 
-## 📦 Installation & Setup
+##  Installation & Setup
 Prerequisites
 Python 3.8+
 
@@ -61,12 +61,12 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
 
-## 🚀 Live Demo
+##  Live Demo
 API Endpoint: http://localhost:8000 (local)
 API Docs: http://localhost:8000/docs
-Status: ✅ Fully functional, ready for deployment
+Status:  Fully functional, ready for deployment
 
-## 📁 Project Structure
+##  Project Structure
 
 job-posting-analyzer/
 <br>
@@ -81,7 +81,7 @@ api/ <ul>
 <li>config.py  # Settings & skills database</li>
 <li>scraper.py # Web scraping (JobScraper class)</li>
 <li>skills_extractor.py # V1: Basic regex extractor</li>
-<li>skills_extractor_v2.py # V2: Enhanced NLP extractor ⭐</li>
+<li>skills_extractor_v2.py # V2: Enhanced NLP extractor </li>
 <li>file_manager.py # JSON file persistence</li>
 <li>main.py # CLI application</li>
 <li>test_integration.py  # Integration tests</li>
